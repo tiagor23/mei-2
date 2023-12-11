@@ -1,7 +1,3 @@
-#Error: results variable in used awkardly. It is used as a parameter in the function and also as a variable in the main function. results is float which causes wrong answer
-#solution: change result = add_numbers to sum_result = add_numbers(result, num1, num2)
-
-
 def add_numbers(result, a, b):
     
     result += a + b
